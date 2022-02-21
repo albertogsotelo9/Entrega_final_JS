@@ -37,7 +37,8 @@ function addItemToShoppingCart(itemImagen, itemNombre, itemArea, itemLenguaje,it
                             <p> ${itemHoras}</p>
                             <p>${itemIngresos}</p>
                             <p>Total: ${total}</p>
-                            <input type="date">
+                            <label for="date"class="font">Fecha de Inicio: </label>
+                            <input type="date" name="date">
                             <button>Quiero que sea parte de mi Equipo!</button></div>`);
                             
     
